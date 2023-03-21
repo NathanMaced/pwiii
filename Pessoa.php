@@ -32,6 +32,9 @@ class Pessoa{
         $this->escolaridade = $escolaridade;
         $this->salario = $salario;
     }
+    function __destruct(){
+        echo "<br>Objeto {$this->nome} finalizando ... <br>"
+    }
 }
 
 ?>
