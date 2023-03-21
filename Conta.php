@@ -18,7 +18,12 @@
         function depositar($quantia){
             if($quantia>0){
                 $this->saldo+=$quantia;
-            }        }
+            }        
+        }
+
+        function obterSaldo(){
+            return $this->saldo;
+        }
     }
 
 ?>
