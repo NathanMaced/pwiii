@@ -8,6 +8,16 @@ class Pessoa{
     var $nascimento;
     var $escolaridade;
     var $salario;
+
+    function crescer($centimetros){
+        if($centimetros > 0){
+            $this->altura += $centimetros;
+        }
+    }
+    function formar($titulacao){
+        $this->escolaridade = $titulacao;
+    }
+    
 }
 
 ?>
