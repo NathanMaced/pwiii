@@ -17,7 +17,11 @@ class Pessoa{
     function formar($titulacao){
         $this->escolaridade = $titulacao;
     }
-    
+    function envelhecer($anos){
+        if ($anos > 0){
+            $this->idade += $anos;
+        }
+    }
 }
 
 ?>
