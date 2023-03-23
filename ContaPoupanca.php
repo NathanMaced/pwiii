@@ -11,10 +11,11 @@ function retirar($quantia){
     if($this->saldo >= $quantia){
         parent::retirar($quantia);
     }
-    else(
+    else{
         echo "<br>Retirada não permitida...<br>";
         return false;
-    )
+}
+return true;
 }
    }
 
