@@ -11,6 +11,10 @@ $carlos->Idade = 25;
 $carlos->Nascimento = '10/04/1976';
 $carlos->Escolaridade = "Ensino Médio";
 
-echo "Manipulando o objeto $carlos->Nome <br>";
+echo "Manipulando o objeto $carlos->Nome : <br>";
+echo "{$carlos->Nome} é formado em: {$carlos->Escolaridade} <br>";
+echo "{$carlos->Nome} possui {$carlos->Idade} anos <br>";
+
+$carlos->envelhecer(1);
 
 ?>
