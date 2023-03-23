@@ -16,5 +16,9 @@ echo "{$carlos->Nome} é formado em: {$carlos->Escolaridade} <br>";
 echo "{$carlos->Nome} possui {$carlos->Idade} anos <br>";
 
 $carlos->envelhecer(1);
+echo "{$carlos->Nome} possui {$carlos->Idade} anos <br>";
+
+$conta_carlos = new Conta;
+$conta_carlos->Agencia = 6677;
 
 ?>
