@@ -11,12 +11,12 @@ $carlos->idade = 25;
 $carlos->nascimento = '10/04/1976';
 $carlos->escolaridade = "Ensino Médio";
 
-echo "Manipulando o objeto $carlos->Nome : <br>";
-echo "{$carlos->Nome} é formado em: {$carlos->Escolaridade} <br>";
-echo "{$carlos->Nome} possui {$carlos->Idade} anos <br>";
+echo "Manipulando o objeto $carlos->nome : <br>";
+echo "{$carlos->nome} é formado em: {$carlos->escolaridade} <br>";
+echo "{$carlos->nome} possui {$carlos->idade} anos <br>";
 
 $carlos->envelhecer(1);
-echo "{$carlos->Nome} possui {$carlos->Idade} anos <br>";
+echo "{$carlos->Nome} possui {$carlos->idade} anos <br>";
 
 $conta_carlos = new Conta;
 $conta_carlos->agencia = 6677;
