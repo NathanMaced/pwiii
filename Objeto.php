@@ -6,7 +6,7 @@ include_once 'Conta.php';
 $carlos = new Pessoa;
 $carlos->codigo = 10;
 $carlos->nome = "Carlos da Silva";
-$carlos->aLtura = 1.85;
+$carlos->altura = 1.85;
 $carlos->idade = 25;
 $carlos->nascimento = '10/04/1976';
 $carlos->escolaridade = "Ensino Médio";

@@ -34,10 +34,10 @@
             $this->Saldo = $saldo;
 
             $this->depositar($saldo);
-            $this -> cancelada = false;
+            $this->cancelada = false;
         }
         function __destruct(){
-            echo "<br> Objeto conta {$this->codigo} de {$this->titular->nome} finalizada...<br>"
+            echo "<br> Objeto conta {$this->codigo} de {$this->titular->nome} finalizada...<br>";
         }
     }
 

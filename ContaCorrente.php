@@ -10,7 +10,7 @@ class ContaCorrente extends Conta {
     function retirar($quantia){
         $cpmf = 0.05;
 
-        if(($this->saldo = $this->limite)>=$quantia){
+        if(($this->saldo = $this->limite) >= $quantia){
             parent::retirar($quantia);
             parent::retirar($quantia * $cpmf);
         }
